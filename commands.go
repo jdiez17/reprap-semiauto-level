@@ -12,10 +12,6 @@ type BasicGCodeCommand struct {
 	command string
 }
 
-type ParameterGCodeCommand struct {
-	BasicGCodeCommand
-}
-
 type MoveToOriginCommand struct {
 	BasicGCodeCommand
 	Axes []string
